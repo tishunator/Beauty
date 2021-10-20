@@ -36,7 +36,6 @@ a:-webkit-any-link {
     height: 50px;
 }
 
-
 .main-nav__items {
     position: relative;
     font-weight: normal;
@@ -48,7 +47,6 @@ a:-webkit-any-link {
     left: 736px;
     top: 17px;
 }
-
 
 .second-line {
     position: static;
@@ -538,5 +536,5 @@ a:-webkit-any-link {
     left: 928px;
     width: 181px;
     height: 14px;
-    top:-42px;
+    top: -42px;
 }
