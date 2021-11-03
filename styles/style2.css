@@ -117,30 +117,6 @@ a:-webkit-any-link {
     line-height: 19px;
 }
 
-.btn {
-    background: #FFFFFF;
-    border: 2px solid var(--accent);
-    box-sizing: border-box;
-    border-radius: 40px;
-    display: block;
-    padding: 13px 27px;
-}
-
-.btn__text {
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    letter-spacing: 0em;
-}
-
-.contact__btn {
-    position: absolute;
-    left: 1345px;
-    top: 90px;
-    min-width: 170px;
-}
-
 .services-nav {
     display: grid;
     grid-template-columns: 128px 86px 72px 70px 61px 58px;
@@ -194,15 +170,55 @@ a:-webkit-any-link {
     top: 535px;
 }
 
+/* ВСЕ КНОПКИ ТУТ!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.btn {
+    background: #FFFFFF;
+    border: 2px solid var(--accent);
+    box-sizing: border-box;
+    border-radius: 40px;
+    display: block;
+    padding: 9px 25px;
+    min-width: 170px;
+    text-align: center;
+}
+
+.btn__text {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0em;
+    line-height: 17px;
+}
+
+.contact__btn {
+    position: absolute;
+    left: 1345px;
+    top: 90px;
+}
+
 .btn_accent {
     background: var(--accent);
     border: 2px solid #FFFFFF;
+}
+
+.btn__text_white {
+    color: white;
 }
 
 .chair__btn {
     position: absolute;
     left: 405px;
     top: 620px;
+}
+
+.special-offers__btn {
+    position: absolute;
+    top: 302px;
+    left: 62px;
+    min-width: 130px;
+    border: 0px;
 }
 
 .special-offers {
