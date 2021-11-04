@@ -121,11 +121,10 @@ a:-webkit-any-link {
     display: grid;
     grid-template-columns: 128px 86px 72px 70px 61px 58px;
     gap: 40px;
-    position: absolute;
     width: 675px;
     height: 19px;
-    left: 622px;
-    top: 200px;
+    margin-left: 622px;
+    margin-top: 130px;
 }
 
 .services-nav__item {
@@ -237,29 +236,26 @@ a:-webkit-any-link {
 }
 
 .special-offers {
-    position: absolute;
     width: 1110px;
     height: 430px;
-    left: 405px;
-    top: 933px;
+    margin-left: 405px;
+    margin-top: 82px;
 }
 
 .special-offers__header {
-    position: absolute;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
     color: black;
+    margin-bottom: 38px;
 }
 
 .special-offers__items {
     display: grid;
     grid-template-columns: repeat(4, 255px);
     gap: 30px;
-    top: 67px;
-    position: absolute;
 }
 
 .special-offers__item {
@@ -331,9 +327,8 @@ a:-webkit-any-link {
 }*/
 
 .subscribe-shops {
-    position: absolute;
-    left: 405px;
-    top: 1463px;
+    margin-left: 405px;
+    margin-top: 98px;
     display: grid;
     grid-template-columns: repeat(2, 540px);
     gap: 30px;
@@ -343,6 +338,7 @@ a:-webkit-any-link {
     width: 540px;
     height: 212px;
     background-color: var(--accent);
+    position: relative;
 }
 
 .subscribe__header {
@@ -370,15 +366,14 @@ a:-webkit-any-link {
 }
 
 .subscribe__img {
-    position: absolute;
-    top: 36px;
-    left: 355px;
+    margin-bottom: 36px;
+    margin-left: 355px;
+    margin-top: -79px;
 }
 
 .subscribe__img_car {
-    position: absolute;
-    left: 877px;
-    top: 56px;
+    margin-left: 306px;
+    margin-top: -60px;
 }
 
 .subscribe__desc_shops {
@@ -424,9 +419,8 @@ a:-webkit-any-link {
 }
 
 .brands {
-    position: absolute;
-    left: 405px;
-    top: 1775px;
+    margin-left: 405px;
+    margin-top: 100px;
     width: 1110px;
     height: 357px;
     background-color: white;
@@ -448,11 +442,9 @@ a:-webkit-any-link {
 }
 
 .footer {
-    position: absolute;
     width: 1920px;
     height: 557px;
-    top: 2722px;
-    left: 0;
+    margin-top: 78px;
     background-color: white;
     display: grid;
     grid-template-columns: repeat(4, 255px);
@@ -533,11 +525,12 @@ a:-webkit-any-link {
 }*/
 
 .copyright-footer {
-    position: absolute;
+    position: relative;
     background-color: #EFEFEF;
     width: 1920px;
     height: 64px;
-    top: 495px;
+    left: -856px;
+    top: 100px;
 }
 
 .copyright {
