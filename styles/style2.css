@@ -177,7 +177,6 @@ a:-webkit-any-link {
     border: 2px solid var(--accent);
     box-sizing: border-box;
     border-radius: 40px;
-    display: block;
     padding: 9px 25px;
     min-width: 170px;
     text-align: center;
@@ -214,11 +213,27 @@ a:-webkit-any-link {
 }
 
 .special-offers__btn {
-    position: absolute;
-    top: 302px;
+    position: relative;
+    top: -110px;
     left: 62px;
     min-width: 130px;
     border: 0px;
+    padding: 9px 42px;
+}
+
+.subscribe__btn {
+    position: absolute;
+    width: 170px;
+    height: 35px;
+    top: 142px;
+    right: 331px;
+    padding-top: 4px;
+}
+
+.footer__btn {
+    position: absolute;
+    top: 413px;
+    left: 1345px;
 }
 
 .special-offers {
