@@ -104,12 +104,16 @@ a:-webkit-any-link {
     left: 19px;
 }
 
+.contact__top {
+    position: relative;
+}
+
 .contact__tel {
-    position: absolute;
+    position: relative;
     width: 127px;
     height: 19px;
     left: 1178px;
-    top: 100px;
+    top: 30px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -124,7 +128,7 @@ a:-webkit-any-link {
     width: 675px;
     height: 19px;
     margin-left: 622px;
-    margin-top: 130px;
+    margin-top: 111px;
 }
 
 .services-nav__item {
@@ -169,7 +173,7 @@ a:-webkit-any-link {
     top: 535px;
 }
 
-/* ВСЕ КНОПКИ ТУТ!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/*                                      ВСЕ КНОПКИ ТУТ!                                            */
 
 .btn {
     background: #FFFFFF;
@@ -193,7 +197,7 @@ a:-webkit-any-link {
 .contact__btn {
     position: absolute;
     left: 1345px;
-    top: 90px;
+    top: 21px;
 }
 
 .btn_accent {
@@ -230,8 +234,7 @@ a:-webkit-any-link {
 }
 
 .footer__btn {
-    position: absolute;
-    top: 413px;
+    position: relative;
     left: 1345px;
 }
 
@@ -301,31 +304,6 @@ a:-webkit-any-link {
     left: 87px;
 }
 
-/*.btn_accent-color {
-    height: 36px;
-    width: 129px;
-    border-radius: 30px;
-    background-color: var(--accent);
-    border-color: var(--accent);
-    color: white;
-    position: relative;
-    top: -117px;
-    left: 62px;
-    border: 0px solid;
-}
-
-.btn_accent-color__text {
-    position: relative;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
-}*/
-
 .subscribe-shops {
     margin-left: 405px;
     margin-top: 98px;
@@ -391,28 +369,6 @@ a:-webkit-any-link {
     background: #FFFFFF;
     border-radius: 30px;
 }
-
-/*.btn_map {
-    position: absolute;
-    width: 170px;
-    height: 35px;
-    top: 142px;
-    right: 331px;
-    background: var(--accent);
-    border: 2px solid #FFFFFF;
-    box-sizing: border-box;
-    border-radius: 30px;
-}
-
-.btn_map__text {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-    color: #FFFFFF;
-}*/
 
 ::-webkit-input-placeholder {
     text-align: center;
@@ -513,16 +469,11 @@ a:-webkit-any-link {
     height: 16px;
 }
 
-.contact__tel_bottom {
-    position: absolute;
-    top: 423px;
+.contact__bottom {
+    position: relative;
+    top: -10px;
+    right: 570px;
 }
-
-/*
-.btn_bottom {
-    position: absolute;
-    top: 413px;
-}*/
 
 .copyright-footer {
     position: relative;
@@ -535,7 +486,7 @@ a:-webkit-any-link {
 
 .copyright {
     margin-left: 405px;
-    margin-top: 23px;
+    margin-top: 15px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -552,5 +503,5 @@ a:-webkit-any-link {
     left: 928px;
     width: 181px;
     height: 14px;
-    top: -37px;
+    top: -29px;
 }
