@@ -15,7 +15,7 @@ html {
 
 body {
     height: 3279px;
-    width: 1920px;
+    min-width: 1920px;
     color: var(--dark);
     background-color: var(--grey);
     position: relative;
